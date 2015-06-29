@@ -14,6 +14,8 @@
     }
     #owl-demo .item:hover a{
     	color:#171717;
+		
+		/*hover color of Product and shop in the little carousel*/
     }
     #owl-demo .item img{
         display: block;
@@ -36,6 +38,9 @@
 .item h4 a{
 	font-size: 1.8em;
 	color: #999999;
+	
+	/*color of the product in the little carousel*/
+	
 	padding: 0.5em 0 0.4em 0;
 	display:block;
 	transition:0.5s all;
@@ -47,11 +52,12 @@
 	font-size: 1.2em;
 	background:#307BCD;
 	
-	/*background: #3CC395;*/
+	/*background: #3CC395; #307BCD*/
 	
 	display: inline-block;
 	padding: 10px 20px;
-	color: #ffffff;
+	color: #ffffff;	
+	/* color of the word shop inside each box */
 }
 /*---//--*/
 /* Styling Next and Prev buttons */

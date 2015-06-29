@@ -230,6 +230,7 @@ body {
 	font-family: 'bebas_neueregular';
 	float:left;
 	color:#ffffff;
+	/*color the bars separating the navigation bar words */
 	font-size: 1.2em;
 }
 .h_menu ul li{
@@ -416,13 +417,14 @@ body {
 
 	color:#4488d2;
 	
-	/*color: #4CCFC1;*/
+	/*color: #4CCFC1; #4488d2*/
 }
 .sub-icon1 ul li p a:hover{
 	color: #555555;
 	text-decoration:underline;
 }
-/* start cauersol */
+/* start cauersol or cursual*/
+
 .cau_left{
 	float:left;
 	width: 47.3333%;
@@ -453,6 +455,8 @@ body {
 /* start main */
 .main_bg{
 	background: #ffffff;
+	
+	/*background of the product page which is white */
 }
 .main{
 	padding: 2%;
@@ -483,13 +487,21 @@ body {
 	margin: 6% 0 8%;
 	font-size: 1.8em;
 	color: #999999;
+	
+	/*color featured products name in grey*/
+	/*color: #999999;*/
+	
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 .grid1_of_3:hover h3,.grid1_of_3:hover h4 span{
-	color: rgb(24, 141, 118);
+
+	color:#171717;
+	
+	/*color of product name and the word indulge when box is hovered*/
+	/*color: rgb(24, 141, 118);*/
 }
 .b_btm{
 	position: absolute;
@@ -508,17 +520,24 @@ body {
 }
 .price h4{
 	font-size: 1.5em;
-	color: #999999;	
+	color:#999999;
+	
+	/*color of product prices in grey*/	
+	/*color: #999999;*/	
+	
 }
 .price h4 span{
 	display: inline-block;
 	font-size: 1.1em;
 	background: #206ad1;
 	
-	/* IMPORTANTE COLOR*/
+	/* IMPORTANTE COLOR for the indulge button : #206ad1*/
 	/*background: #3CC395;*/
 	
 	color: #ffffff;
+	
+	/*color of the word INDULGE inside the box*/
+	
 	padding: 8px 20px;
 	margin-left: 30px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -570,6 +589,7 @@ body {
 	line-height: 1.8em;	
 	text-transform: capitalize;
 }
+
 /* un ajout de regles pour les li sans lien <a>*/
 .f_nav li {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -1075,8 +1095,10 @@ p.para{
 	color: #ffffff;
 	line-height: 1.5em;
 	text-shadow: 0 1px 0 #1C6159;
+	/*text-shadow: 0 1px 0 #1C6159;*/
 	padding: 10px 20px;
 	background: #4CCFC1;
+	/*background: #4CCFC1;*/
 }
 .single-nav li {
 	list-style-image: url(../images/marker1.gif);
